@@ -1,5 +1,6 @@
 def greeting(name)
-  "Hello,#{name}!" # nameは、引数で渡されたname
+  "Hello,#{name}!"
+  "Good morning,#{name}!"
 end
 
-puts greeting('John') #'John'を引数として渡す
+puts greeting('John')
